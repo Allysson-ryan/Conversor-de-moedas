@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Conversor de Moedas </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h2> Converso de Moedas </h2>
+        <form>
+            <div class="quantidade">
+                <p>Quantidade</p>
+                <input type="text" value="1" class="input-currency">
+            </div>
+
+            <div class="convert-box">
+                <div class="de">
+                    <p> De </p>
+                    <div class="selecionar-input">
+                        <img src="https://flagcdn.com/48x36/br.png" class="img-flag"> <!-- API de imagem da bandeira dos países -->
+                        <select></select>
+                    </div>
+                </div>
+
+                <div class="seta-de-reverso"> 
+                    <img src="./icons/icone de seta.png" class="img-seta-de-reverso">
+                </div>
+
+                <div class="para">
+                    <p> Para </p>
+                    <div class="selecionar-input">
+                        <img src="https://flagcdn.com/48x36/us.png" class="img-flag">
+                        <select></select>
+                    </div>
+                </div>
+
+                <div class="resultado">Obtendo taxa de câmbio...</div>
+                <button class="convert-button"> Converter </button>
+            </div>
+        </form>
+    </div>
+
+<script src="./Paises.js"></script>
+<script src="./index.js"></script>
+</body>
+
+</html>
