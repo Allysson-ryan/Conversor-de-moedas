@@ -12,10 +12,10 @@ const response = await fetch(`https://v6.exchangerate-api.com/v6/[YOUR_KEY]]/lat
 const response = await fetch(`https://v6.exchangerate-api.com/v6/[YOUR_KEY]]/latest/${fromCur.value}`);
 ```
 ## Funcionalidades
- Conversão de valores entre diferentes moedas
- Atualização automática de taxas de câmbio utilizando a API Exchangerate
- Interface de usuário responsiva
- Ícones de bandeira para cada moeda, utilizando uma API de ícones de bandeira
+ * Conversão de valores entre diferentes moedas;
+ * Atualização automática de taxas de câmbio utilizando a API Exchangerate;
+ * Interface de usuário responsiva;
+ * Ícones de bandeira para cada moeda, utilizando uma API de ícones de bandeira;
 
 ## Tecnologias
 - HTML
